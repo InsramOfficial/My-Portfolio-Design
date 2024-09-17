@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        .portfolio {
+            padding: 50px 20px;
+
+            color: #e6f1ff;
+        }
+
+        .portfolio h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        .portfolio-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .portfolio-item {
+            background-color: #444;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease;
+        }
+
+        .portfolio-item:hover {
+            background-color: #555;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .portfolio-item h2 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        .portfolio-item p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        span {
+            color: rgba(212, 70, 8, 0.701);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Portfolio.html" class="active">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <p>|</p>
+                </li>
+                <li><a href="https://www.facebook.com/danydoaslay.danydoaslay"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.threads.net/@ulhaqinsram"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/ulhaqinsram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/insram-ul-haq-a462b32b1/"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="portfolio">
+        <h1>My <span>Projects</span>
+        </h1>
+        <div class="portfolio-items">
+            <!-- OBSC Management System -->
+            <div class="portfolio-item">
+                <img src="img/obsc.png" alt="OBSC Management System">
+                <h2>OBSC Management System</h2>
+                <p>A comprehensive management system for handling various business operations and processes. Developed
+                    using .NET Core and SQL Server.</p>
+            </div>
+
+            <!-- BBWebProjectWork -->
+            <div class="portfolio-item">
+                <img src="img/Bar and Bite.png" alt="BBWebProjectWork">
+                <h2>BBWebProjectWork</h2>
+                <p>An innovative web project focused on delivering a seamless user experience and modern design. Built
+                    with Laravel and Bootstrap.</p>
+            </div>
+
+            <!-- Tailor Management System -->
+            <div class="portfolio-item">
+                <img src="img/Mstatis.png" alt="Tailor Management System">
+                <h2>Statistical Website</h2>
+                <p>A system designed to upload data and query it based on category and locations.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

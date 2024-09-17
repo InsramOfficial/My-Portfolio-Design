@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+
+
+    <div class="header">
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="Portfolio.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <p>|</p>
+                </li>
+                <li><a href="https://www.facebook.com/danydoaslay.danydoaslay"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.threads.net/@ulhaqinsram"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/ulhaqinsram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/insram-ul-haq-a462b32b1/"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+    <div class="main">
+        <div class="section1">
+            <div class="content">
+                <p>Hi!</p>
+                <h1> I'm <span> Insram Ul Haq</span></h1>
+                <h2><span class="text"></span></h2>
+                <a class="button">Get Started</a>
+            </div>
+
+        </div>
+        <div class="section2">
+
+            <div class="background"></div>
+            <div class="profile-container">
+                <img src="img/Insram-removebg-preview (2).png" alt="Profile" class="profile-image">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="testimonials">
+        <h1 class="section-title">Testimonials</h1>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <div class="img-container">
+                    <img src="img/Insram-removebg-preview (1).png" alt="Profile Image of Insram Ul Haq">
+                </div>
+                <h2>Insram Ul Haq</h2>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <p class="quote">"My name is Insram Ul Haq, and I am a student at the University of Kotli Azad Kashmir."
+                </p>
+            </div>
+            <div class="testimonial">
+                <div class="img-container">
+                    <img src="img/Insram-removebg-preview (1).png" alt="Profile Image of Insram Ul Haq">
+                </div>
+                <h2>Insram Ul Haq</h2>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <p class="quote">"My name is Insram Ul Haq, and I am a student at the University of Kotli Azad Kashmir."
+                </p>
+            </div>
+            <div class="testimonial">
+                <div class="img-container">
+                    <img src="img/Insram-removebg-preview (1).png" alt="Profile Image of Insram Ul Haq">
+                </div>
+                <h2>Insram Ul Haq</h2>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <p class="quote">"My name is Insram Ul Haq, and I am a student at the University of Kotli Azad Kashmir."
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-cards-container">
+            <div class="skill-card">
+                <i class="fa-brands fa-laravel"></i>
+                <h3>Laravel</h3>
+                <p>Experienced in building modern web applications using the Laravel framework.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>.NET Core</h3>
+                <p>Proficient in developing scalable applications using .NET Core for web development.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-search"></i>
+                <h3>SEO</h3>
+                <p>Skilled in optimizing websites for search engines to improve visibility and traffic.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-cloud"></i>
+                <h3>Azure Cloud</h3>
+                <p>Expert in leveraging Azure Cloud services for cloud-based application development.</p>
+            </div>
+        </div>
+        </d>
+
+
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </section>
+
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".text", {
+                strings: ["Full Stack Developer", "With .Net core and Laravel", "Seo Specialist", "Proficient in Azure cloud services", " Skilled in MS Office suite"],
+                typeSpeed: 10,
+                backSpeed: 60,
+                backDelay: 1000,
+                loop: true
+            });
+
+
+        </script>
+</body>
+
+</html>

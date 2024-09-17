@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .blog-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .blog-post {
+            background-color: #ffffff4a;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            width: calc(50% - 20px);
+        }
+
+        .blog-post img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .blog-post h2 {
+            margin: 10px 0;
+            font-size: 1.8rem;
+        }
+
+        .blog-post p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .sidebar {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+            margin-left: 20px;
+        }
+
+        .sidebar h3 {
+            margin-top: 0;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .blog-post {
+                width: 100%;
+            }
+
+            .sidebar {
+                width: 100%;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="Portfolio.html">Projects</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <p>|</p>
+                </li>
+                <li><a href="https://www.facebook.com/danydoaslay.danydoaslay"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.threads.net/@ulhaqinsram"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/ulhaqinsram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/insram-ul-haq-a462b32b1/"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="blog-container">
+        <div class="blog-post">
+            <!-- <img src="img/" alt="Blog Post 1"> -->
+            <h2>Understanding Web Development Trends</h2>
+            <p>Stay updated with the latest trends in web development and learn how to implement them in your projects.
+                This post covers new technologies and best practices.</p>
+        </div>
+
+        <div class="blog-post">
+            <!-- <img src="img/post2.jpg" alt="Blog Post 2"> -->
+            <h2>Why SEO is Crucial for Your Website</h2>
+            <p>Learn about the importance of SEO for your website and how you can optimize your content to rank higher
+                in search engine results. This article offers actionable tips and strategies.</p>
+        </div>
+
+        <div class="blog-post">
+            <!-- <img src="img/post3.jpg" alt="Blog Post 3"> -->
+            <h2>Introduction to Cloud Computing</h2>
+            <p>Discover the basics of cloud computing and its benefits for modern businesses. This post explains
+                different cloud services and how they can be leveraged for scalability and efficiency.</p>
+        </div>
+
+        <div class="sidebar">
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">Understanding Web Development Trends</a></li>
+                <li><a href="#">Why SEO is Crucial for Your Website</a></li>
+                <li><a href="#">Introduction to Cloud Computing</a></li>
+                <li><a href="#">The Future of AI in Technology</a></li>
+                <li><a href="#">Tips for Effective Web Design</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

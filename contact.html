@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 20px;
+        }
+
+        .contact-form {
+            background-color: #ffffff40;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 60%;
+        }
+
+        .contact-form h2 {
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+
+            color: #e6f1ff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .contact-form button:hover {
+            background-color: #333;
+        }
+
+        .contact-info {
+            width: 35%;
+            background-color: #ffffff2d;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .contact-info h2 {
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        .contact-info p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .contact-info .icons {
+            margin-top: 20px;
+        }
+
+        .contact-info .icons a {
+            color: #222;
+            margin-right: 15px;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+
+        .contact-info .icons a:hover {
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                flex-direction: column;
+            }
+
+            .contact-form,
+            .contact-info {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Portfolio.html">Projects</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html" class="active">Contact</a></li>
+                <li>
+                    <p>|</p>
+                </li>
+                <li><a href="https://www.facebook.com/danydoaslay.danydoaslay"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.threads.net/@ulhaqinsram"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/ulhaqinsram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/insram-ul-haq-a462b32b1/"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1 style="text-align: center; margin-top: 50px;">Feel Free to Contact</h1>
+    <div class="contact-container">
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>If you have any questions or inquiries, feel free to reach out to me using the contact form or through
+                the following contact details:</p>
+            <p><strong>Email:</strong> insramulhaq.11@gmail.com</p>
+            <p><strong>Phone:</strong>03401159116</p>
+            <p><strong>Address:</strong>Kurti Kotli Azad Kashmir Near UOK</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/danydoaslay.danydoaslay" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.threads.net/@ulhaqinsram" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com/ulhaqinsram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/insram-ul-haq-a462b32b1/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
