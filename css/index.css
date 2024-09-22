@@ -102,7 +102,10 @@ nav ul li i {
 
 .section2 {
     width: 50%;
-    padding: 120px;
+    padding: 10px; 
+}
+.profile-image{
+    width: 500px; 
 }
 
 .section1 h1 span {
@@ -171,6 +174,7 @@ nav ul li i {
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
+
     margin: 0 auto 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -305,4 +309,3 @@ nav ul li i {
     background-color: white;
     color: rgba(212, 70, 8, 0.701);
 }
-
